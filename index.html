@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="dest/styles.css" />
+</head>
+<body>
+    <h1 style="text-align: center; margin: 3em auto;">HELLO</h1>
+    <button id="packery" type="button">Run Packery</button>
+    <button id="draggabilly" type="button">Run Draggabilly</button>
+    <section id="grid">
+        <article id="W1" class="widget" style="background-color:yellow;">one</article>
+        <article id="W2" class="widget" style="background-color:blue;">two</article>
+        <article id="W3" class="widget" style="background-color:green;">three</article>
+        <article id="W4" class="widget" style="background-color:violet;">four</article>
+        <article id="W5" class="widget" style="background-color:orange;">five</article>
+    </section>
+
+    <script>
+        document.querySelector('#packery').addEventListener('click', () => Dashboard.doPackery());
+        document.querySelector('#draggabilly').addEventListener('click', () => Dashboard.doDraggabilly('.widget'));
+    </script>
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+    <script src="https://unpkg.com/packery@2.1.2/dist/packery.pkgd.js"></script>
+    <script src="https://unpkg.com/draggabilly/dist/draggabilly.pkgd.js"></script>
+    <script src="dest/bundle.js"></script>
+</body>
+</html>

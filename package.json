@@ -1,0 +1,33 @@
+{
+  "name": "gulp-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/packery": "^1.4.31",
+    "draggabilly": "^2.2.0",
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0",
+    "jquery": "^3.3.1",
+    "packery": "^2.1.2",
+    "sweetalert2": "^8.0.6",
+    "typescript": "^3.3.3",
+    "vinyl-buffer": "^1.0.1",
+    "watchify": "^3.11.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.11",
+    "tsify": "^4.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
